@@ -1,0 +1,37 @@
+.fourthSectionElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: sans-serif;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstSection img {
+  width: 86px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.firstSection h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #757575;
+  width: 700px;
+}
+
+.paragraph p{
+    width: 434px;
+}
