@@ -1,0 +1,83 @@
+.mainSection {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  padding-left: 0;
+  padding-right: 50px;
+  height: 680px;
+}
+
+.header {
+  padding-left: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 94px;
+  letter-spacing: 2px;
+}
+
+.header p {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 3;
+  width: 63%;
+}
+
+.around {
+  color: #f25123;
+  border: 3.5px solid #41ba77;
+  border-radius: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.paragraph {
+  color: #c7c7c7;
+  padding-left: 50px;
+  width: 450px;
+  font-weight: 400;
+  size: 21px;
+  line-height: 25.2px;
+  letter-spacing: 0.3%;
+}
+
+.buttons {
+  padding-left: 50px;
+  margin-top: 90px;
+}
+
+.buttons button {
+  margin-right: 35px;
+  color: white;
+  font-size: 16px;
+}
+
+.join {
+  width: 128px;
+  height: 50px;
+  background: #2255ee;
+  border-radius: 10px;
+  border: none;
+}
+.watch {
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.imageSection {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 0;
+}
+
+.imageSection img {
+  background-color: transparent;
+  color: transparent;
+}

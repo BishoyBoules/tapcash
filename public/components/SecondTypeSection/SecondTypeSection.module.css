@@ -1,0 +1,14 @@
+.secondType {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.secondSection {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+}

@@ -1,0 +1,20 @@
+.firstType {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 78px;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  width: 560px;
+}
+
+.header p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

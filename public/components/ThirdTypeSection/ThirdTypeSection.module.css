@@ -1,0 +1,21 @@
+.thirdType {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.imageSection img {
+  width: 650px;
+  height: auto;
+}

@@ -1,0 +1,48 @@
+.secondSectionElement {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.elementHeader {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #37383d;
+}
+
+.elementImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.elementImage img {
+  height: auto;
+}
+
+.elementParagraph {
+  color: #747474;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 26px;
+  width: 230px;
+  margin-bottom: 10px;
+}
+
+.readMore {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  text-decoration-line: underline;
+}

@@ -1,0 +1,47 @@
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.firstSection h3 {
+  font-family: sans-serif;
+  color: #01a4f1;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+
+.firstSection h1 {
+  font-family: sans-serif;
+  color: #3d3d3f;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.firstSection p {
+  font-family: sans-serif;
+  color: #3d3d3f;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 30px;
+  width: 550px;
+}
+
+.firstSection button {
+  font-family: sans-serif;
+  color: white;
+  background-color: #2255ee;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  width: 215px;
+  height: 50px;
+}

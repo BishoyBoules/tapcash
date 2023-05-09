@@ -1,0 +1,64 @@
+@mixin flexDisplay() {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin margins($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+.navbar {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  @include flexDisplay();
+
+  .logo img {
+    width: 168px;
+    height: auto;
+  }
+
+  .navbarLinks {
+    @include flexDisplay();
+
+    a {
+      @include margins(10px);
+    }
+    .navbarLink {
+      font-weight: 400;
+      z-index: 2;
+    }
+    .home {
+      font-weight: 800;
+    }
+    .icon {
+      text-align: center;
+      margin-left: 5px;
+    }
+  }
+  .navbarButtons {
+    @include flexDisplay();
+    button {
+      @include margins(10px);
+      font-weight: 500;
+      color: white;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      text-align: center;
+      z-index: 2;
+    }
+    .login {
+      background-color: transparent;
+    }
+    .signup {
+      width: 158px;
+      height: 50px;
+      background-color: #2255ee;
+      border-radius: 9px;
+    }
+  }
+}
