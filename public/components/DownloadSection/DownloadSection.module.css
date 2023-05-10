@@ -1,0 +1,82 @@
+.downloadSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  margin-right: 80px;
+}
+
+.image {
+  width: 375px;
+  height: auto;
+  padding: 5px;
+}
+
+.paragraph {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: -150px;
+}
+
+.paragraph h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 10px;
+}
+
+.paragraph p {
+  color: #cccccc;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  width: 460px;
+  margin-bottom: 10px;
+}
+
+.list figure {
+  margin-left: 0;
+}
+
+.list label {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stores figure {
+  border-radius: 10px;
+  border: 2px solid #cccccc;
+  width: 203px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 0;
+}
+
+.apple {
+  border: 2px solid #cccccc;
+  background-color: #ffffff;
+}
+
+.android {
+  background-color: black;
+}

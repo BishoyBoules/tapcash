@@ -1,0 +1,54 @@
+.footer {
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.address figure {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.lower{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #646464;
+}
+
+.lower section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower section a{
+    margin-right: 50px;
+}
